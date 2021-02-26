@@ -8,16 +8,19 @@ https://shopify.dev/tutorials/build-a-shopify-app-with-node-and-react?shpxid=dbe
 https://www.shopify.jp/blog/partner-shopify-app-development
 
 ディレクトリ直下に.env　を作成
-SHOPIFY_API_KEY='｛ApiKey｝'
-SHOPIFY_API_SECRET='｛ApiSecret｝'
-SHOPIFY_API_SCOPES=read_products
-SHOPIFY_APP_URL='｛AppUrl ex:https://XXXX.ngrok.io｝'
 
-npm install
-npm install ngrok -g
+    SHOPIFY_API_KEY='｛ApiKey｝'
+    SHOPIFY_API_SECRET='｛ApiSecret｝'
+    SHOPIFY_API_SCOPES=read_products
+    SHOPIFY_APP_URL='｛AppUrl ex:https://XXXX.ngrok.io｝'
 
-npm run dev
+コマンド
+
+    npm install
+    npm install ngrok -g
+    npm run dev
+    
 別窓で
-ngrok http 3000
+    ngrok http 3000
 
 でngrokのURLが発行されるのでShopifyのアプリ画面の設定（2か所）と.envを書き換える

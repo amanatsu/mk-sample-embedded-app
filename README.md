@@ -21,6 +21,7 @@ https://www.shopify.jp/blog/partner-shopify-app-development
     npm run dev
     
 別窓で
+
     ngrok http 3000
 
 でngrokのURLが発行されるのでShopifyのアプリ画面の設定（2か所）と.envを書き換える
